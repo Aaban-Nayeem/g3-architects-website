@@ -89,7 +89,61 @@ ul > li > a {
   margin: 0 auto;
   width: 100%;
 }
+main {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+  padding: 7rem 0;
+}
 
+.feature-photo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.feature-photo > img {
+  width: 100%;
+}
+
+.feature-title {
+  color: #727272;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+#spn1 {
+  color: #131313;
+  font-weight: 700;
+}
+#spn2 {
+  color: #ff900e;
+  font-weight: 700;
+}
+.feature-description {
+  color: #727272;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-explore-button {
+  border-radius: 0.8rem;
+  background-color: #ff900e;
+  padding: 2rem;
+  border: none;
+  margin: 2rem 0;
+}
+
+.feature-explore-button > a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
 /* Responsive Media Query */
 /* For tablet or medium devices */
 @media screen and (max-width: 960px) {
